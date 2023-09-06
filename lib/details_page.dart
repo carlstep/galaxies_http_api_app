@@ -25,8 +25,8 @@ class DetailsPage extends StatelessWidget {
               height: 12,
             ),
             CircleAvatar(
+              backgroundImage: NetworkImage(user.picture),
               radius: 50,
-              child: Image.network(user.picture),
             ),
             const SizedBox(
               height: 12,
